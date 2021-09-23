@@ -3,10 +3,22 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-            <div className="footer-link">&copy;
-            <a className="footer-link" href="https://github.com/MukulKolpe">MukulKolpe</a>
-            </div> 
+    <div className="bg-dark text-white pt-3 pb-2">
+            <div className="container text-center text-md-center">
+              
+                
+                  <div className="align-items-center">
+                    
+                      <p>&copy;
+                        <a href="https://github.com/MukulKolpe">
+                          <strong className="text-white"> Mukul Kolpe</strong>
+                        </a>
+                      </p>
+                   
+                  
+                
+              </div>
+            </div>
     </div>
   );
 }
