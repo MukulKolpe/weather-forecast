@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #2979b3;
+    margin: 0;
+    
+  }
+  .footer-link {
+    line-height: 30px;
+    width: 100vw;
+    font-size: 20px;
+    color: black;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    
+    text-transform: capitalize;
+  }
+  
