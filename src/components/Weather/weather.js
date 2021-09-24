@@ -64,7 +64,7 @@ class Weather extends Component{
 				</table>
 				{this.props.city && this.props.country &&
                    <div className="container text-center">
-                        <button className="btn btn-dark" onClick={this.props.getForecast}>Forecast<i className="fas fa-cloud-sun-rain ml-1"></i></button>
+                        <button className="btn btn-dark" onClick={this.props.getForecast}>Forecast Chart<i className="fas fa-cloud-sun-rain ml-1"></i></button>
                    </div>
                 }
 			</div>
