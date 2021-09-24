@@ -8,11 +8,11 @@ class Form extends Component{
 			
 			<form onSubmit = {this.props.getWeather}>
 				<div className="form-inline justify-content-center pl-3 pr-3">
-				<TextField id="outlined-basic" name="country" label="country" variant="outlined" placeholder="Country..." sx={{
+				<TextField id="outlined-basic" name="country" label="country" variant="outlined" color="success" placeholder="Country..." sx={{
         '& > :not(style)': { m: 1 },
       }}/>
 				
-				<TextField id="outlined-basic" name="city" label="city" variant="outlined" placeholder="City..." sx={{
+				<TextField id="outlined-basic" name="city" label="city" variant="outlined" color="success" placeholder="City..." sx={{
         '& > :not(style)': { m: 1 },
       }}/>
 				{/*<input type="text" name="country" className="form-control mr-3 mb-3" placeholder="Country..."/>
