@@ -36,22 +36,46 @@ export default class Chart extends Component {
                 data: this.props.wind_speed 
               }
             ]
-          }    
-        return (
-            <div>
-                <Bar
-                data={data}
-                width={55}
-                height={18}
-                options={{
-                    maintainAspectRatio: true,
-                    duration: 2000
-                }}
-                /> 
-                <div className="text-center">
-                    <button className="btn btn-light" onClick={this.props.getPresent}><i className="fas fa-angle-left mr-1"></i>Back</button>
-                </div>    
-            </div>
-        )
+          } 
+          let h=parseInt(window.screen.height);
+              let w=parseInt(window.screen.width);
+              if(w > 1000){
+                return (
+                  <div>
+                      <Bar
+                      data={data}
+                      width={50}
+                      height={18}
+                      options={{
+                          maintainAspectRatio: true,
+                          duration: 2000
+                      }}
+                      /> 
+                      <div className="text-center">
+                          <button className="btn btn-light" onClick={this.props.getPresent}><i className="fas fa-angle-left mr-1"></i>Back</button>
+                      </div>    
+                  </div>
+              )
+              }
+              else{
+                return (
+                  <div>
+                      <Bar
+                      data={data}
+                      width={88}
+                      height={55}
+                      options={{
+                          maintainAspectRatio: true,
+                          duration: 2000
+                      }}
+                      /> 
+                      <div className="text-center">
+                          <button className="btn btn-light" onClick={this.props.getPresent}><i className="fas fa-angle-left mr-1"></i>Back</button>
+                      </div>    
+                  </div>
+              )
+              }
+   
+        
     }
 }
