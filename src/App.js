@@ -131,7 +131,7 @@ class App extends Component {
       
       <div className="wrapper">
         <Nav />
-        <div className="col-md-11 pt-4 mx-auto">
+        <div className="col-md-11 pt-5 mx-auto">
           <div className="jumbotron col-lg-10 mx-auto pt-2">
             <Form className="form" getWeather={this.getWeather} />
             {this.state.loading ? (
