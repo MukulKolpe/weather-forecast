@@ -3,23 +3,19 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="bg-dark text-white pt-2 pb-2">
-            <div className="container text-center text-md-center">
-              
-                
-                  <div className="align-items-center">
-                    
-                      <p>&copy;
-                        <a href="https://github.com/MukulKolpe">
-                          <strong className="text-white"> Mukul Kolpe</strong>
-                        </a>
-                      </p>
-                   
-                  
-                
-              </div>
-            </div>
+    <div className="footer-container">
+      <p>
+        &copy;
+        <a
+          href="https://github.com/MukulKolpe"
+          className="footer-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Mukul Kolpe
+        </a>
+      </p>
     </div>
   );
-}
+};
 export default Footer;

@@ -1,10 +1,27 @@
-Footer{
+.footer-container{
+  display: flex;
+  justify-content: center;
   margin-top: auto;
-  
+  background-color: #292b2c;
+  margin: 0;
 }
 
 p{
+  align-items: center;
   text-transform: capitalize;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
+  color: #fff;
+  font-size: 20px;
+
+}
+.footer-link{
+  color: #fff;
+}
+a {
+  transition: all 0.3s linear;
+}
+
+p:hover{
+  transform: scale(1.2);
 }
