@@ -52,7 +52,7 @@ export default class Chart extends Component {
                       }}
                       /> 
                       <div className="text-center">
-                          <button className="btn btn-light" onClick={this.props.getPresent}><i className="fas fa-angle-left mr-1"></i>Back</button>
+                          <button className="btn btn-dark" onClick={this.props.getPresent}><i className="fas fa-angle-left mr-1"></i>Back</button>
                       </div>    
                   </div>
               )
