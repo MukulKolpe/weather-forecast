@@ -20,7 +20,7 @@ class Form extends Component{
                                                 
 				</div>
 				<div className="row justify-content-center">
-						<button type="submit" className="btn btn-info mb-3">Get Weather <i className="fas fa-arrow-alt-circle-right ml-1"></i></button>
+						<button type="submit" className="btn btn-dark info mb-3">Get Weather <i className="fas fa-arrow-alt-circle-right ml-1"></i></button>
 					 {/* <Button type="submit" variant="contained">Get Weather</Button>	*/}
 				</div>	
 					
