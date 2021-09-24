@@ -42,7 +42,7 @@ export default class Chart extends Component {
                 <Bar
                 data={data}
                 width={55}
-                height={20}
+                height={18}
                 options={{
                     maintainAspectRatio: true,
                     duration: 2000

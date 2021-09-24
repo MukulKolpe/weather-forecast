@@ -128,10 +128,11 @@ class App extends Component {
 
   render() {
     return (
+      
       <div className="wrapper">
         <Nav />
-        <div className="col-md-10 pt-1 mx-auto">
-          <div className="jumbotron col-lg-10 mx-auto pt-3 ">
+        <div className="col-md-11 pt-4 mx-auto">
+          <div className="jumbotron col-lg-10 mx-auto pt-2">
             <Form className="form" getWeather={this.getWeather} />
             {this.state.loading ? (
               <div className="container text-center pt-5 pb-5 mt-5 mb-5">
@@ -164,6 +165,8 @@ class App extends Component {
         </div>
         <Footer />
       </div>
+      
+     
     );
   }
 }

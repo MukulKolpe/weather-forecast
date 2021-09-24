@@ -1,6 +1,7 @@
 body{
   font-family: 'Questrial', sans-serif;
-
+  margin: 0;
+  padding: 0;
 }
 
 td.text-right{
@@ -15,7 +16,7 @@ td.text.left{
 body {
   /* background: url("img/weather.jpg") no-repeat center fixed;
   background-size: cover; */
-  background: #999 center center no-repeat fixed;
+  background: white center center no-repeat fixed;
   background-size: cover;
   
   height: 100vh;
@@ -28,7 +29,10 @@ body {
 .jumbotron{
  
   background-color: rgba(255,255,255, 0.8);
+ 
+}
+.wrapper{
   display: flex;
   flex-direction: column;
-  height: 81vh;
+  height: 100vh;
 }
