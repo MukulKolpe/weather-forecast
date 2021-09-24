@@ -30,7 +30,7 @@ class App extends Component {
     const city = e.target.elements.city.value;
 
     const data = await fetch(
-      `https://api.openweathermap.org/data/2.5/forecast?q=${country},${city}&appid=7df7ab233532d23def84f33a98feb94a&units=metric`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&appid=7df7ab233532d23def84f33a98feb94a&units=metric`
     )
       .then(
         this.setState({
