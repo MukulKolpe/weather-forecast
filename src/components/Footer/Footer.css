@@ -1,10 +1,10 @@
 .footer-container{
   display: flex;
   justify-content: center;
-  margin-top: auto;
+  margin-top: auto !important;
   background-color: #101010;
   margin: 0;
-  
+
 }
 
 p{
