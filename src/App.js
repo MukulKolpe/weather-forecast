@@ -128,7 +128,6 @@ class App extends Component {
 
   render() {
     return (
-      
       <div className="wrapper">
         <Nav />
         <div className="col-md-11 pt-5 mx-auto">
@@ -165,8 +164,6 @@ class App extends Component {
         </div>
         <Footer />
       </div>
-      
-     
     );
   }
 }
