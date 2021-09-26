@@ -37,7 +37,6 @@ export default class Chart extends Component {
               }
             ]
           } 
-          let h=parseInt(window.screen.height);
               let w=parseInt(window.screen.width);
               if(w > 1000){
                 return (
