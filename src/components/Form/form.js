@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import Button from '@mui/material/Button';
 import TextField from "@mui/material/TextField";
 
 class Form extends Component {
@@ -37,7 +36,6 @@ class Form extends Component {
           <button type="submit" className="btn btn-dark info mb-3">
             Get Weather <i className="fas fa-arrow-alt-circle-right ml-1"></i>
           </button>
-          {/* <Button type="submit" variant="contained">Get Weather<i className="fas fa-arrow-alt-circle-right ml-1"></i></Button>	*/}
         </div>
       </form>
     );
