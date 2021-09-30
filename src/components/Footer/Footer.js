@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>
+      <div className="footer-main">
         &copy;
         <a
           href="https://github.com/MukulKolpe"
@@ -14,7 +14,7 @@ const Footer = () => {
         >
           Mukul Kolpe
         </a>
-      </p>
+    </div>
     </div>
   );
 };

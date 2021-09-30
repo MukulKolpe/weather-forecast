@@ -3,26 +3,25 @@
   justify-content: center;
   margin-top: auto !important;
   background-color: #101010;
-  margin: 0;
-
-}
-
-p{
+  
   align-items: center;
   text-transform: capitalize;
-  margin: 5px;
-  padding: 5px;
+  
+  padding: 10px;
   color: #fff;
   font-size: 20px;
+  position: bottom;
 
 }
+
+
 .footer-link{
   color: #fff;
 }
-a {
+ .footer-main{
   transition: all 0.3s linear;
 }
 
-p:hover{
-  transform: scale(1.2);
+.footer-main:hover{
+  transform: scale(1.1);
 }
