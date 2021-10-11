@@ -42,8 +42,8 @@ Make sure you have node.js installed.
  ```
    
 
-## Deployed [here](https://type-fast-bymukul.netlify.app/)
+## Deployed [here](https://mukulkolpe.github.io/weather-forecast/)
 
 ## License
 
-### [MIT License](https://github.com/MukulKolpe/type-fast/blob/main/LICENSE)
+### [MIT License](https://github.com/MukulKolpe/weather-forecast/blob/main/LICENSE)
