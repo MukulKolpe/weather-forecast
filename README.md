@@ -3,7 +3,7 @@
 ## Description
 This react app displays weather and also shows expected weather for next few days in the form of charts.
 
-## [Code of Conduct](https://github.com/MukulKolpe/type-fast/blob/main/CODE_OF_CONDUCT.md)
+## [Code of Conduct](https://github.com/MukulKolpe/weather-forecast/blob/main/CODE_OF_CONDUCT.md)
 
 ## [Contributing Guidlines](https://github.com/MukulKolpe/type-fast/blob/main/CONTRIBUTING.md)
 
