@@ -1,7 +1,7 @@
 # Weather-forecast
 
 ## Description
-It is a React.js web application which will help you to improve your typing speed.
+This react app displays weather and also shows expected weather for next few days in the form of charts.
 
 ## [Code of Conduct](https://github.com/MukulKolpe/type-fast/blob/main/CODE_OF_CONDUCT.md)
 
