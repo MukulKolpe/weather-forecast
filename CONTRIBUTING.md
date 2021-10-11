@@ -7,8 +7,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
-## The beginner's guide to contributing to a GitHub project
-
 
 ## Fork this repository
 
@@ -94,8 +92,3 @@ Now submit the pull request.
  
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
-
-## Where to go from here?
-
-Congrats! You just completed the standard _fork -> clone -> brabch -> edit -> PR_ workflow that you'll encounter often as a contributor!
-
