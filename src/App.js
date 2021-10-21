@@ -57,7 +57,7 @@ class App extends Component {
               city: undefined,
               humidity: undefined,
               description: undefined,
-              error: "Unable to get weather info!... Please check the values entered..."
+              error: "⚠️Unable to get weather info!... Please check the values entered..."
 
               });
 
@@ -118,7 +118,7 @@ class App extends Component {
       city: undefined,
       humidity: undefined,
       description: undefined,
-      error: "Please enter some values!"
+      error: "⚠️Please enter some values!"
 
     });
   
