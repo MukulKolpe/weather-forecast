@@ -26,11 +26,11 @@ Make sure you have node.js installed.
 1. Fork this repository.
 2. clone it.
  ```
- git clone https://github.com/YOUR_GITHUB_UserName/type-fast
+ git clone https://github.com/YOUR_GITHUB_UserName/weather-forecast
  ```
 3. 
  ```
- cd type-fast
+ cd weather-forecast
  ```
 4. Install node modules
  ```
